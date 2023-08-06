@@ -127,9 +127,8 @@ where /Q cl.exe || (
     exit /b 1
   )  
   call "!VS!\VC\Auxiliary\Build\vcvarsall.bat" amd64 || exit /b 1
-
-  set MSVC_GENERATOR="Visual Studio 17 2022"
 )
+set MSVC_GENERATOR="Visual Studio 17 2022"
 
 rem
 rem output folder
